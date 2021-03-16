@@ -25,4 +25,21 @@
 .heroimg>img{
     height: 300px;
     object-fit: contain;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.container{
+    color: black;
+}
+
+.box>div>img{
+    height: 130px;
+    object-fit: contain;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.about{
+    background-color: aquamarine;
+
 }
