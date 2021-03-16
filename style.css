@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    border: 2px solid black;
+    line-height: 50px;
+}
+
+.navbar{
+    background-color: rgb(59, 1, 59);
+}
+
+.row{
+    margin: auto;
+    color: white;
+}
+
+.hero{
+    background-color: aquamarine;
+}
+
+.heroimg>img{
+    height: 300px;
+    object-fit: contain;
+}
