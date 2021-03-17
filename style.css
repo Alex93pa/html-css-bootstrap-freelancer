@@ -16,6 +16,14 @@
     background-color: rgb(59, 1, 59);
 }
 
+.navbar-brand:hover{
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.navbar-my-theme{
+    color: white;
+}
 .row{
     margin: auto;
     color: white;
@@ -41,44 +49,51 @@
 
 
 .box>div>img{
-    height: 150px;
+    height: 200px;
     object-fit: contain;
     padding: 10px;
     margin-left: 50%;
     transform: translate(-50%);
+    border-radius: 10%;
 }
 
 .about{
     background-color: #1abc9c;
 }
 
-.btn-download{
-    color: white;
-    width: 15%;
-    margin: auto;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
+.about>.row>div>p{
+    line-height: 30px;
+    text-align: left;
+}
 
+.btn-download{
+    background-color: #1abc9c;
+    border: 1px solid white;
 }
 .text{
     height: 80px;
 }
 
-.data{
+.form-control{
+    box-shadow: none;
+    text-align: left;
+    border-top: none;border-left: none;
+    border-right: none;
+}
+
+.left{
     text-align: left;
 }
 
-.btn-send{
-    width: 15%;
-    background-color: #1abc9c;
-    border-radius: 20%;
-    color: white;
-
-}
 .up-footer{
     background-color: rgb(5, 5, 75);
+    padding: 10px;
 }
 
 .down-footer{
     background-color: rgb(4, 4, 47);
+}
+
+.stboot{
+    color: #1abc9c;
 }

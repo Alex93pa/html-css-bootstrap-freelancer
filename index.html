@@ -8,7 +8,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Start Bootstrap</title>
 </head>
 <body>
 
@@ -16,12 +16,17 @@
 
         <nav class="navbar">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 hidden-xs">START BOOTSTRAP</div>
-                    <div class="col-md-4 col-sm-4 hidden-xs"></div>
-                    <div class="col-md-4 col-sm-4 hidden-xs"> MENU</div>
-                    <div class="col-xs-12 visible-xs-block">START BOOTSTRAP</div>
+                <div class="navbar-header">
+                    <a class="navbar-brand white" href="#"><b>START BOOTSTRAP</b> </a>
                 </div>
+                <ul class="nav navbar-nav navbar-right white">
+                    <li><a href="#" class="white">PORTFOLIO</a></li>
+                    <li><a href="#" class="white">ABOUT</a></li>
+                    <li><a href="#" class="white">CONTACT</a></li>  
+                </ul>
+                <div class="col-xs-12 visible-xs-block"><a href="" class="white">START BOOTSTRAP</a>
+                </div>
+
             </div>
         </nav>
         
@@ -31,7 +36,7 @@
                     <div class="heroimg">
                         <img src="img/avatar.svg" alt="">
                         <div class="first-descr">
-                            <h1>START</h1>
+                            <h1 class="white">START BOOTSTRAP</h1>
                         </div>
                     </div>
                 </div>
@@ -85,7 +90,10 @@
                 </div>
                 <div class="download col-lg-12 col-md-12 col-xs-12">
                     <a href="" >
-                       <div class="btn-download"> Download</div>
+                       <button type="button" class="btn btn-success btn-download"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                      </svg> Download </button>
                     </a>
                 </div>
             </div>
@@ -96,18 +104,21 @@
         <div class="contact">
             <div class="container">
                 <div class="col-lg-12 col-md-12 col-xs-12">
-                    
                     <h1>CONTACT ME</h1>
-                    <h3 class="data">Name</h3>
-                    <hr>
-                    <h3 class="data">Email Address</h3>
-                    <hr>
-                    <h3 class="data">Phone Number</h3>
-                    <hr>
-                    <h3 class="data">Message</h3>
-                    <div class="text"></div>
-                    <hr>
-                    <a href=""> <div  class="btn-send">Send</div> </a>
+                    <form action="form col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-xs-12">
+                        <div class="form-group"> 
+                            <input type="name" class="form-control"  placeholder="Name">
+                        </div>
+                        <div class="form-group">                                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+                        </div>
+                        <div class="form-group"> 
+                            <input type="phone number" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group"> 
+                            <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-success btn-download left">Send</button>
+                    </form>
                 </div>
 
             </div>
@@ -127,6 +138,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-xd-1">
                     <h3 class="white">ABOUT FREELANCER</h3>
+                    <h5 class="white">Freelancer is a free to use,o open source <br> Bootstrap theme created by <a href="" class="stboot">Start Bootstrap</a></h5>
                 </div>
 
             </div>
@@ -136,7 +148,7 @@
         <footer class="down-footer">
             <div class="container">
                 <div class="white col-lg-12 col-md-12 col-xs-12">
-                    Copyright
+                    Copyright &copy; your website 2019
                 </div>
             </div>
 
