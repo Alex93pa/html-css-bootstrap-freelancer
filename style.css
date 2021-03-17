@@ -33,6 +33,14 @@
     color: white;
 }
 
+.black{
+    color: black;
+}
+
+.hr-black{
+    border-color: black;
+}
+
 .hero{
     background-color: #1abc9c;
 }
@@ -47,7 +55,9 @@
     color: black;
 }
 
-
+.decoration{
+    height: 50px;
+}
 .box>div>img{
     height: 200px;
     object-fit: contain;
@@ -57,13 +67,17 @@
     border-radius: 10%;
 }
 
+.hr{
+    padding-top: 6px;
+}
 .about{
     background-color: #1abc9c;
 }
 
-.about>.row>div>p{
+.about>.container>div>p{
     line-height: 30px;
     text-align: left;
+    color: white;
 }
 
 .btn-download{
@@ -90,10 +104,55 @@
     padding: 10px;
 }
 
+.social-img{
+    height: 150px;
+    margin-top: -92px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.social{
+    height: 40px;
+    overflow: hidden;
+}
 .down-footer{
     background-color: rgb(4, 4, 47);
 }
 
 .stboot{
     color: #1abc9c;
+}
+
+/* * {
+    border: 1px solid black;
+} */
+
+.divisore{
+    height: 50px;
+}
+
+.center{
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 30%;
+    height: 50px;
+}
+
+.linea{
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    height: 2px;
+    border: 1px solid white;
+}
+
+.linea-right{
+    right: 0%;
+}
+.linea2{
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    height: 2px;
+    border: 1px solid rgb(0, 0, 0);
 }
