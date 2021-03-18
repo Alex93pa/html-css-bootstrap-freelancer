@@ -24,6 +24,7 @@
 .navbar-my-theme{
     color: white;
 }
+
 .row{
     margin: auto;
     color: white;
@@ -139,7 +140,7 @@
 }
 
 .linea{
-    width: 40%;
+    width: 35%;
     position: absolute;
     top: 35%;
     height: 2px;
@@ -150,7 +151,7 @@
     right: 0%;
 }
 .linea2{
-    width: 40%;
+    width: 35%;
     position: absolute;
     top: 35%;
     height: 2px;
